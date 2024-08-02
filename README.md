@@ -15,7 +15,7 @@ This is a dbt (data build tool) project aims to transform raw data into a more a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-dbt-project.git
+   git clone https://github.com/suraj11nag/your-dbt-project.git
    cd your-dbt-project
    ```
 
