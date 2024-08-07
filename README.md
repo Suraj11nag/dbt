@@ -77,7 +77,7 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## Screenshot
 
-![This screenshot will display the dbt project for Olympic data marts generated using `dbt docs generate`](/Users/surajnag/Documents/dbt/screenshot.png)
+![This screenshot will display the dbt project for Olympic data marts generated using `dbt docs generate`](images/screenshot.png)
 
 ## License
 
