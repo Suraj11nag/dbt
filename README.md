@@ -75,6 +75,10 @@ To run dbt commands, use the following:
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
 
+## Screenshot
+
+![This screenshot will display the dbt project for Olympic data marts generated using `dbt docs generate`](/Users/surajnag/Documents/dbt/screenshot.png)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -1,0 +1,134 @@
+version: 2
+
+models:
+  - name: mart_athletes
+    description: "Contains detailed information about athletes, including their performance in events and medal tallies."
+    columns:
+      - name: athlete_id
+        description: "Unique identifier for the athlete."
+      - name: name
+        description: "Name of the athlete."
+      - name: sex
+        description: "Sex of the athlete."
+      - name: born
+        description: "Date of birth of the athlete."
+      - name: height
+        description: "Height of the athlete."
+      - name: weight
+        description: "Weight of the athlete."
+      - name: country
+        description: "Country of the athlete."
+      - name: country_noc
+        description: "National Olympic Committee code of the athlete's country."
+      - name: description
+        description: "Description of the athlete."
+      - name: special_notes
+        description: "Special notes about the athlete."
+      - name: edition
+        description: "Olympic edition in which the athlete participated."
+      - name: edition_id
+        description: "Unique identifier for the Olympic edition."
+      - name: sport
+        description: "Sport in which the athlete participated."
+      - name: event
+        description: "Event in which the athlete participated."
+      - name: pos
+        description: "Position of the athlete in the event."
+      - name: medal
+        description: "Medal won by the athlete in the event."
+      - name: isTeamSport
+        description: "Indicates if the event is a team sport."
+
+  - name: mart_olympic_games
+    description: "Comprehensive information about each Olympic edition and country medal tallies."
+    columns:
+      - name: edition
+        description: "Olympic edition."
+      - name: edition_id
+        description: "Unique identifier for the Olympic edition."
+      - name: edition_url
+        description: "URL for more information about the Olympic edition."
+      - name: year
+        description: "Year the Olympic edition was held."
+      - name: city
+        description: "City where the Olympic edition was held."
+      - name: country_flag_url
+        description: "URL of the country flag image."
+      - name: country_noc
+        description: "National Olympic Committee code of the host country."
+      - name: start_date
+        description: "Start date of the Olympic edition."
+      - name: end_date
+        description: "End date of the Olympic edition."
+      - name: competition_date
+        description: "Date of the competition."
+      - name: isHeld
+        description: "Indicates if the Olympic edition was held."
+      - name: country
+        description: "Country name."
+      - name: gold
+        description: "Number of gold medals won by the country."
+      - name: silver
+        description: "Number of silver medals won by the country."
+      - name: bronze
+        description: "Number of bronze medals won by the country."
+      - name: total
+        description: "Total number of medals won by the country."
+
+  - name: mart_countries
+    description: "Contains country information and their participation details."
+    columns:
+      - name: noc
+        description: "National Olympic Committee code of the country."
+      - name: country
+        description: "Name of the country."
+      - name: edition
+        description: "Olympic edition in which the country participated."
+      - name: edition_id
+        description: "Unique identifier for the Olympic edition."
+      - name: gold
+        description: "Number of gold medals won by the country."
+      - name: silver
+        description: "Number of silver medals won by the country."
+      - name: bronze
+        description: "Number of bronze medals won by the country."
+      - name: total
+        description: "Total number of medals won by the country."
+
+  - name: mart_event_results
+    description: "Consolidated event results, including participant details and event-specific information."
+    columns:
+      - name: result_id
+        description: "Unique identifier for the event result."
+      - name: event_title
+        description: "Title of the event."
+      - name: edition
+        description: "Olympic edition in which the event took place."
+      - name: edition_id
+        description: "Unique identifier for the Olympic edition."
+      - name: sport
+        description: "Sport in which the event took place."
+      - name: sport_url
+        description: "URL for more information about the sport."
+      - name: result_date
+        description: "Date of the event result."
+      - name: result_location
+        description: "Location of the event result."
+      - name: result_participants
+        description: "Number of participants in the event."
+      - name: result_format
+        description: "Format of the event result."
+      - name: result_detail
+        description: "Detailed information about the event result."
+      - name: result_description
+        description: "Description of the event result."
+      - name: athlete_id
+        description: "Unique identifier for the athlete."
+      - name: athlete_name
+        description: "Name of the athlete."
+      - name: pos
+        description: "Position of the athlete in the event."
+      - name: medal
+        description: "Medal won by the athlete in the event."
+      - name: isTeamSport
+        description: "Indicates if the event is a team sport."
